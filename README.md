@@ -1,5 +1,5 @@
 🎥 Anime Recommendation System (Content + Collaborative Filtering)
-This project is a hybrid Anime Recommendation System built using both content-based and collaborative filtering techniques. It leverages user ratings and anime metadata to provide intelligent recommendations personalized for each user.
+This project is a hybrid Anime Recommendation System built using both content-based and collaborative filtering techniques. It leverages user ratings and anime metadata to provide intelligent recommendations personalised for each user.
 
 🔍 Project Overview
 Type: Recommendation System (Hybrid)
@@ -15,8 +15,8 @@ Output: Top anime recommendations for a given user
 📁 Files
 File Name	Description
 RS_Project_content_collaborative_anime_recommendation.ipynb	Jupyter Notebook implementing both content-based and collaborative filtering recommendation logic.
-anime.csv (expected)	Contains anime metadata (name, genre, rating, etc.)
-rating.csv (expected)	Contains user ratings for various anime
+anime.csv (expected)	: Contains anime metadata (name, genre, rating, etc.)
+rating.csv (expected)	contains user ratings for various anime
 
 Note: You’ll need to provide or load the appropriate anime.csv and rating.csv files for the notebook to work correctly.
 
@@ -29,7 +29,7 @@ Based on cosine similarity
 
 Collaborative Filtering:
 
-Uses user rating matrix and KNN for nearest neighbors
+Uses user rating matrix and KNN for nearest neighbours
 
 Predicts anime that similar users liked
 
@@ -44,7 +44,7 @@ scipy
 
 surprise (for collaborative filtering)
 
-matplotlib (optional for visualization)
+matplotlib (optional for visualisation)
 
 ▶️ How to Run
 Clone this repository:
@@ -52,7 +52,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/anime-recommendation-system.git
+git clone https://github.com/hassan-abbas-arain/RS-Project
 cd anime-recommendation-system
 
 
